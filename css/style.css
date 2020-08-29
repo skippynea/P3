@@ -1,0 +1,24 @@
+/* Color Palette
+#9356DC - Primary
+#FF79DA - Secondary
+#99E2D0 - Tertiary
+*/
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.ttf');
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    max-width: 1200px;
+}
