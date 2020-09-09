@@ -1,0 +1,24 @@
+{
+    "name": "p3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "sass": "^1.26.10"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "dev": "sass sass/main.scss:css/styles.css",
+        "watch": "sass sass/main.scss:css/styles.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/skippynea/P3.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/skippynea/P3/issues"
+    },
+    "homepage": "https://github.com/skippynea/P3#readme"
+}
