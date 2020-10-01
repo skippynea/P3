@@ -8,27 +8,20 @@
     src: url("/fonts/Roboto/Roboto-Medium.ttf") format("ttf");
 }
 
-.body {
+body {
     font-family: 'roboto';
 }
 
-.header {
+header {
     display: flex;
     justify-content: center;
     padding: 20px;
     background-color: white;
 }
 
-.main-container {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: blueviolet;
-}
-
 .location {
     box-shadow: inset 1px 4px 9px -6px;
-    background-color: blue;
+    background-color: #eaeaea;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +30,13 @@
     i {
         margin-right: 25px;
     }
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: blueviolet;
 }
 
 .choices {
