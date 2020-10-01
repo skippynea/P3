@@ -1,9 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .body {
     background-color: yellow;
 }
 
 .header {
-    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
 }
 
 .main-container {
@@ -11,7 +19,17 @@
 }
 
 .Location {
+    box-shadow: inset 1px 4px 9px -6px;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    padding: 20px;
+}
+
+i {
+    margin-right: 25px;
 }
 
 .Choices {
