@@ -38,12 +38,21 @@
 
 .Choices {
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Restaurants {
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
     background-color: magenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
