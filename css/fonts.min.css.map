@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,UAAU,CACN,WAAW,CAAE,QAAQ,CACrB,GAAG,CAAE,wCAAwC,CAAC,aAAa,CAG/D,UAAU,CACN,WAAW,CAAE,WAAW,CACxB,GAAG,CAAE,+CAA+C,CAAC,aAAa",
+    "mappings": "AAAA,UAAU,CACN,WAAW,CAAE,QAAQ,CACrB,GAAG,CAAE,wCAAwC,CAAC,aAAa,CAG/D,UAAU,CACN,WAAW,CAAE,WAAW,CACxB,GAAG,CAAE,+CAA+C",
     "sources": [
         "../sass/fonts.scss"
     ],
