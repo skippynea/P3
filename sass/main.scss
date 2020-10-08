@@ -1,19 +1,8 @@
 @import 'reset.scss';
 @import 'fonts.scss';
+@import 'colors.scss';
 @import 'header.scss';
 @import 'footer.scss';
-
-/********************* Colour reference chart****************
-************************* comment ********* colour ******** 
-
-primary                    prim              #9356DC
-secondary                  sec               #FF79DA
-tertiary                   tert              #99E2D0
-
-*/
-
-.color {}
-
 body {
     font-family: 'Shrikhand';
 }
