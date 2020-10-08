@@ -1,115 +1,149 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ /********************* Colour reference chart****************
+************************* comment ********* colour ******** 
 
-@font-face {
-    font-family: "Roboto";
-    src: url("/fonts/Roboto/Roboto-Medium.ttf") format("ttf");
-}
+primary                    prim              #9356DC
+secondary                  sec               #FF79DA
+tertiary                   tert              #99E2D0
 
-body {
-    font-family: 'roboto';
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #ffffff;
-}
-
-.location {
-    box-shadow: inset 1px 4px 9px -6px;
-    background-color: #eaeaea;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    padding: 20px;
-    i {
-        margin-right: 25px;
-    }
-}
-
-.hero {
-    background-color: #f6f6f6;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px 40px;
-    h1 {
-        margin: 40px 0px;
-    }
-    p {
-        color: grey;
-        margin-bottom: 40px;
-        font-size: 18px;
-    }
-    button {
-        font-size: 20px;
-        color: white;
-        background: rgb(236, 0, 235);
-        background: linear-gradient(324deg, rgba(236, 0, 235, 1) 0%, rgba(239, 206, 255, 1) 100%);
-        border: none;
-        padding: 20px 40px;
-        border-radius: 40px;
-        margin-bottom: 40px;
-    }
-}
-
-.choices {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    h1 {
-        margin: 40px 0px;
-    }
-    button {
-        font-size: 20px;
-        color: white;
-        background: rgb(238, 174, 202);
-        background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-        border: none;
-        padding: 20px 40px;
-        border-radius: 40px;
-        margin-bottom: 40px;
-    }
-}
-
-.main-container {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    b
-}
-
-.restaurants {
-    background-color: #f6f6f6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 40px;
-}
-
-.rest_01 {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 40px;
-}
-
-.footer {
-    background-color: #353535;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    h2 {
-        color: grey;
-        margin-bottom: 40px;
-        font-size: 18px;
-    }
-}
+*/
+ 
+ .color {}
+ 
+ @font-face {
+     font-family: "Roboto";
+     src: url("/fonts/Roboto/Roboto-Medium.ttf") format("ttf");
+ }
+ 
+ body {
+     font-family: 'roboto';
+ }
+ 
+ header {
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     background-color: #ffffff;
+ }
+ 
+ footer {
+     background-color: #353535;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     h2 {
+         color: white;
+         margin-bottom: 40px;
+         font-size: 18px;
+     }
+ }
+ 
+ .location {
+     box-shadow: inset 1px 4px 9px -6px;
+     background-color: #eaeaea;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 28px;
+     padding: 20px;
+     i {
+         margin-right: 25px;
+     }
+ }
+ 
+ .hero {
+     background-color: #f6f6f6;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     padding: 20px 40px;
+     h1 {
+         margin: 40px 0px;
+     }
+     p {
+         color: grey;
+         margin-bottom: 40px;
+         font-size: 18px;
+     }
+     button {
+         font-size: 20px;
+         color: white;
+         background: rgb(236, 0, 235);
+         background: linear-gradient(324deg, rgba(236, 0, 235, 1) 0%, rgba(239, 206, 255, 1) 100%);
+         border: none;
+         padding: 20px 40px;
+         border-radius: 40px;
+         margin-bottom: 40px;
+     }
+ }
+ 
+ .choices {
+     background-color: #ffffff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     h1 {
+         margin: 40px 0px;
+     }
+     button {
+         font-size: 20px;
+         color: white;
+         background: rgb(238, 174, 202);
+         background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+         border: none;
+         padding: 20px 40px;
+         border-radius: 40px;
+         margin-bottom: 40px;
+     }
+ }
+ 
+ .main-container {
+     background-color: #ffffff;
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     b
+ }
+ 
+ .restaurants {
+     background-color: #f6f6f6;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 40px;
+ }
+ 
+ .rest_01 {
+     background-color: #ffffff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 40px;
+ }
+ 
+ .rest_02 {
+     background-color: #ffffff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 40px;
+ }
+ 
+ .rest_03 {
+     background-color: #ffffff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 40px;
+ }
+ 
+ .rest_04 {
+     background-color: #ffffff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 40px;
+ }
