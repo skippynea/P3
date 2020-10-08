@@ -87,10 +87,19 @@ header {
 }
 
 .restaurants {
-    background-color: red;
+    background-color: #f6f6f6;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 40px;
+}
+
+.rest_01 {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
 }
 
 .footer {
