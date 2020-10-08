@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,AAAC,CAIH,WAAW,CAAE,QAAQ,CACrB,gBAAgB,CAAE,OAAO,CACzB,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,MAAM,CAM1B,AAdD,AACI,MADE,CACF,EAAE,AAAC,CACC,WAAW,CAAE,WAAW,CAC3B,AAHL,AASI,MATE,CASF,EAAE,AAAC,CACC,KAAK,CAAE,KAAK,CACZ,aAAa,CAAE,IAAI,CACnB,SAAS,CAAE,IAAI,CAClB",
+    "sources": [
+        "../sass/footer.scss"
+    ],
+    "names": [],
+    "file": "footer.min.css"
+}
