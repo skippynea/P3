@@ -3,6 +3,9 @@ footer {
     display: block;
     display: flex;
     flex-direction: column;
+    h1 {
+        font-family: 'Shrikhand';
+    }
     h2 {
         color: white;
         margin-bottom: 40px;
