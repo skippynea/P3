@@ -147,9 +147,10 @@ h1 {
 .restaurants .card {
   background-color: #ffffff;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px 40px;
+  margin: 20px 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */
