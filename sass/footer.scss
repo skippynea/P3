@@ -1,10 +1,14 @@
 footer {
     background-color: #353535;
-    display: block;
     display: flex;
+    padding: 30px;
     flex-direction: column;
-    h1 {
+    h4 {
         font-family: 'Shrikhand';
+        color: white;
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 20px;
     }
     h2 {
         color: white;
