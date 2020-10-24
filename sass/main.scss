@@ -72,7 +72,6 @@ h1 {
     @media screen and (max-width: 992px) {
         .buttons {
             display: block;
-            ;
         }
     }
     .choices-button {
@@ -120,6 +119,16 @@ h1 {
     padding: 30px;
     h2 {
         padding: 20px 0px;
+    }
+    .restaurants-cards {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    @media screen and (max-width: 992px) {
+        .restaurants-cards {
+            display: block;
+        }
     }
     .card {
         background-color: white;
