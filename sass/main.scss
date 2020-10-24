@@ -4,6 +4,7 @@
 @import 'fonts.scss';
 @import 'colors.scss';
 @import 'header.scss';
+@import 'button.scss';
 @import 'footer.scss';
 * {
     font-family: 'Roboto';
@@ -53,16 +54,6 @@ h1 {
         color: grey;
         margin-bottom: 40px;
         font-size: 18px;
-    }
-    button {
-        font-size: 20px;
-        color: white;
-        background: rgb(236, 0, 235);
-        background: linear-gradient(324deg, rgba(236, 0, 235, 1) 0%, rgba(239, 206, 255, 1) 100%);
-        border: none;
-        padding: 20px 40px;
-        border-radius: 40px;
-        margin-bottom: 40px;
     }
 }
 
