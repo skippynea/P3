@@ -1,4 +1,4 @@
-/* Main CSS file */
+/* Main SCSS file */
 * {
   margin: 0;
   padding: 0;
@@ -143,11 +143,14 @@ h1 {
 
 .restaurants {
   background-color: #f6f6f6;
-  padding: 0px 30px;
+  padding: 30px;
+}
+.restaurants h2 {
+  padding: 20px 0px;
 }
 .restaurants .card {
-  border-radius: 30px;
   background-color: white;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,10 +181,15 @@ h1 {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 30px;
 }
 .restaurants .card .card-details {
   display: block;
   width: 100%;
+  padding: 20px;
+}
+.restaurants .card .icon {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
