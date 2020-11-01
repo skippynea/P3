@@ -192,7 +192,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 20px 0px;
+  margin: 20px;
+  min-width: 250px;
 }
 .restaurants .card .image {
   border-top-right-radius: 20px;
