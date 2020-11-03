@@ -182,7 +182,7 @@ h1 {
 }
 @media screen and (max-width: 992px) {
   .restaurants .restaurants-cards {
-    display: block;
+    flex-direction: row;
   }
 }
 .restaurants .card {
@@ -194,6 +194,11 @@ h1 {
   justify-content: center;
   margin: 20px;
   min-width: 300px;
+}
+@media screen and (max-width: 992px) {
+  .restaurants .card .restaurants-cards {
+    flex-direction: row;
+  }
 }
 .restaurants .card .image {
   border-top-right-radius: 20px;
