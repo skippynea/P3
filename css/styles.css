@@ -195,43 +195,43 @@ h1 {
   margin: 20px;
   min-width: 300px;
 }
-@media screen and (max-width: 992px) {
-  .restaurants .card .restaurants-cards {
-    flex-direction: row;
-  }
-}
-.restaurants .card .image {
+.restaurants .image {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   height: 200px;
   width: 100%;
   background-size: cover;
 }
-.restaurants .card .picture-full-palette {
+.restaurants .picture-full-palette {
   background-image: url("../img/restaurants/The_Full_Palette.jpg");
 }
-.restaurants .card .picture-enchanted-plate {
+.restaurants .picture-enchanted-plate {
   background-image: url("../img/restaurants/The_Enchanted_Plate.jpg");
 }
-.restaurants .card .picture-bastille {
+.restaurants .picture-bastille {
   background-image: url("../img/restaurants/Bastille.jpg");
 }
-.restaurants .card .picture-gourmand {
+.restaurants .picture-gourmand {
   background-image: url("../img/restaurants/Le_Gourmand.jpg");
 }
-.restaurants .card .card-details-wrapper {
+.restaurants .card-details-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
-.restaurants .card .card-details {
+.restaurants .card-details {
   display: block;
   width: 100%;
   padding: 20px;
 }
-.restaurants .card .icon {
+.restaurants .icon {
   padding: 20px;
+}
+@media screen and (max-width: 550px) {
+  .restaurants .card {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

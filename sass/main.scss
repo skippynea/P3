@@ -140,44 +140,44 @@ h1 {
         justify-content: center;
         margin: 20px;
         min-width: 300px;
-        @media screen and (max-width: 992px) {
-            .restaurants-cards {
-                flex-direction: row;
-            }
-        }
-        .image {
-            border-top-right-radius: 20px;
-            border-top-left-radius: 20px;
-            height: 200px;
+    }
+    .image {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+    }
+    .picture-full-palette {
+        background-image: url('../img/restaurants/The_Full_Palette.jpg');
+    }
+    .picture-enchanted-plate {
+        background-image: url('../img/restaurants/The_Enchanted_Plate.jpg');
+    }
+    .picture-bastille {
+        background-image: url('../img/restaurants/Bastille.jpg');
+    }
+    .picture-gourmand {
+        background-image: url('../img/restaurants/Le_Gourmand.jpg');
+    }
+    .card-details-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        // padding: 30px;
+    }
+    .card-details {
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+    .icon {
+        padding: 20px;
+    }
+    @media screen and (max-width: 550px) {
+        .card {
             width: 100%;
-            background-size: cover;
-        }
-        .picture-full-palette {
-            background-image: url('../img/restaurants/The_Full_Palette.jpg');
-        }
-        .picture-enchanted-plate {
-            background-image: url('../img/restaurants/The_Enchanted_Plate.jpg');
-        }
-        .picture-bastille {
-            background-image: url('../img/restaurants/Bastille.jpg');
-        }
-        .picture-gourmand {
-            background-image: url('../img/restaurants/Le_Gourmand.jpg');
-        }
-        .card-details-wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            // padding: 30px;
-        }
-        .card-details {
-            display: block;
-            width: 100%;
-            padding: 20px;
-        }
-        .icon {
-            padding: 20px;
         }
     }
 }
