@@ -199,6 +199,8 @@ h1 {
   justify-content: center;
   margin: 20px;
   min-width: 300px;
+  text-decoration: none;
+  color: black;
 }
 .restaurants .image {
   border-top-right-radius: 20px;
