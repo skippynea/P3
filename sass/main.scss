@@ -188,3 +188,23 @@ h1 {
         }
     }
 }
+
+.restaurant {
+    &-header-wrapper {
+        background-color: green;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .back_button {
+            position: absolute;
+            top: 5px;
+        }
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    }
+}
