@@ -89,7 +89,7 @@ h1 {
             background-color: $primary-color;
             padding: 7px;
             width: 30px;
-            height: 30px;
+            max-height: 30px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -110,6 +110,11 @@ h1 {
                 color: #888;
                 margin-right: 15px;
             }
+        }
+    }
+    @media screen and (max-width: 992px) {
+        .choices-button {
+            padding: unset;
         }
     }
 }

@@ -144,7 +144,7 @@ h1 {
   background-color: #9356DC;
   padding: 7px;
   width: 30px;
-  height: 30px;
+  max-height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,6 +165,11 @@ h1 {
 .choices .choices-button .button-label i {
   color: #888;
   margin-right: 15px;
+}
+@media screen and (max-width: 992px) {
+  .choices .choices-button {
+    padding: unset;
+  }
 }
 
 .restaurants {
