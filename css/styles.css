@@ -181,7 +181,7 @@ h1 {
 }
 .restaurants .restaurants-cards {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
   margin: 0px -20px;
 }
@@ -252,6 +252,7 @@ h1 {
 .restaurant-header-wrapper .back_button {
   position: absolute;
   top: 5px;
+  left: 10px;
 }
 .restaurant-header-wrapper img {
   position: absolute;
