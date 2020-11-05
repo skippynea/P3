@@ -241,6 +241,7 @@ h1 {
 @media screen and (max-width: 550px) {
   .restaurants .card {
     width: 100%;
+    min-width: 200px;
   }
 }
 
