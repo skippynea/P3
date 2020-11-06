@@ -213,8 +213,17 @@ h1 {
         border-top-right-radius: 25px;
         border-top-left-radius: 25px;
         margin-top: -75px;
-        background-color: white;
+        background-color: #f6f6f6;
         padding: 40px;
+        .card-details-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1 {
+                font-size: 35px;
+            }
+            h2 {}
+        }
     }
 }
 

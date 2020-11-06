@@ -268,10 +268,17 @@ h1 {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   margin-top: -75px;
-  background-color: white;
+  background-color: #f6f6f6;
   padding: 40px;
 }
-
+.restaurant .card .card-details-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.restaurant .card .card-details-wrapper h1 {
+  font-size: 35px;
+}
 .the-full-palette-bg-image {
   background-image: url("../img/restaurants/The_Full_Palette.jpg");
 }
