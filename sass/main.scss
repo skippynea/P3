@@ -222,7 +222,21 @@ h1 {
             h1 {
                 font-size: 35px;
             }
-            h2 {}
+        }
+        .menus-part {
+            h2 {
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #666666;
+                font-weight: 300;
+            }
+            .line {
+                display: block;
+                width: 50px;
+                background-color: green;
+                height: 2px;
+                margin-bottom: 20px;
+            }
         }
     }
 }
