@@ -247,7 +247,7 @@ h1 {
 }
 
 .restaurant-header-wrapper {
-  background-color: grey;
+  background-color: white;
   width: 100%;
   position: relative;
   display: flex;
@@ -255,8 +255,10 @@ h1 {
   justify-content: center;
 }
 .restaurant-header-wrapper .back_button {
+  color: black;
+  font-size: 40px;
   position: absolute;
-  top: 25px;
+  top: 10px;
   left: 10px;
 }
 .restaurant .main-image {
@@ -279,28 +281,83 @@ h1 {
 .restaurant .card .card-details-wrapper h1 {
   font-size: 35px;
 }
+.restaurant .card .order button {
+  text-decoration: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  min-width: 100px;
+  width: 50%;
+}
+.restaurant .card .order {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.restaurant .card .menus-part {
+  display: flex;
+  flex-direction: column;
+}
 .restaurant .card .menus-part h2 {
   font-size: 18px;
   text-transform: uppercase;
   color: #666666;
   font-weight: 300;
+  margin-top: 20px;
 }
 .restaurant .card .menus-part .line {
   display: block;
-  width: 50px;
-  background-color: green;
+  width: 45px;
+  background-color: #99E2D0;
   height: 2px;
   margin-bottom: 20px;
 }
-
-.the-full-palette-bg-image {
-  background-image: url("../img/restaurants/The_Full_Palette.jpg");
+.restaurant .card .menus-part .buttons {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
-
-.menus {
+.restaurant .card .menus-part .buttons .menus-details {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 20px;
+  background: #f6f6f6;
+  border: none;
+  padding: 30px 50px;
+  border-radius: 20px;
+  color: #090909;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.restaurant .card .menus-part .buttons .menus-details .menus-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+}
+.restaurant .card .menus-part .buttons .menus-details .menus-text .h3 {
+  font-size: 5px;
+  color: #666666;
+}
+.restaurant .card .menus-part .buttons .menus-details .menus-text .section {
+  font-size: 5px;
+  color: #666666;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.restaurant .card .menus-part .buttons .menus-details i {
+  height: auto;
+  width: auto;
+  font-size: 30px;
+  color: white;
+  background-color: #99E2D0;
+}
+.restaurant .the-full-palette-bg-image {
+  background-image: url("../img/restaurants/The_Full_Palette.jpg");
 }
 
 /*# sourceMappingURL=styles.css.map */
