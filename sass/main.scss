@@ -68,6 +68,7 @@ h1 {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        cursor: pointer;
     }
     @media screen and (max-width: 992px) {
         .buttons {
@@ -204,6 +205,9 @@ h1 {
             top: 10px;
             left: 10px;
         }
+        .img {
+            width: 50%;
+        }
     }
     .main-image {
         background-size: cover;
@@ -223,19 +227,6 @@ h1 {
             h1 {
                 font-size: 35px;
             }
-        }
-        .order button {
-            text-decoration: none;
-            border: none;
-            display: flex;
-            justify-content: center;
-            min-width: 100px;
-            width: 50%;
-        }
-        .order {
-            text-decoration: none;
-            display: flex;
-            justify-content: center;
         }
         .menus-part {
             display: flex;
@@ -298,6 +289,13 @@ h1 {
                     }
                 }
             }
+        }
+        .valid_order button {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            width: 50%;
         }
     }
     .the-full-palette-bg-image {
