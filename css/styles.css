@@ -348,15 +348,26 @@ h1 {
   color: white;
   background-color: #99E2D0;
 }
-.restaurant .card .valid_order button {
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border: none;
-  width: 50%;
-}
 .restaurant .the-full-palette-bg-image {
   background-image: url("../img/restaurants/The_Full_Palette.jpg");
+}
+.restaurant .order_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding-bottom: 40px;
+}
+.restaurant .order_wrapper .order_validation {
+  display: inline-block;
+  text-align: center;
+  border: none;
+}
+.restaurant .order_wrapper .order_validation .btn {
+  text-decoration: none;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*# sourceMappingURL=styles.css.map */

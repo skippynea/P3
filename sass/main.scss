@@ -290,15 +290,26 @@ h1 {
                 }
             }
         }
-        .valid_order button {
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            border: none;
-            width: 50%;
-        }
     }
     .the-full-palette-bg-image {
         background-image: url('../img/restaurants/The_Full_Palette.jpg');
+    }
+    .order_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #f6f6f6;
+        padding-bottom: 40px;
+        .order_validation {
+            display: inline-block;
+            text-align: center;
+            border: none;
+            .btn {
+                text-decoration: none;
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        }
     }
 }
