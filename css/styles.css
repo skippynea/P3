@@ -232,11 +232,28 @@ h1 {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  /* .empty {
+          visibility: visible;
+          z-index: 5;
+      }
+      .empty:hover {
+          visibility: hidden;
+          z-index: -1;
+      } */
 }
-.restaurants .card-details {
+.restaurants .card-details-wrapper .card-details {
   display: block;
   width: 100%;
   padding: 20px;
+}
+.restaurants .card-details-wrapper .full {
+  cursor: pointer;
+  color: grey;
+  /* visibility: hidden; */
+}
+.restaurants .card-details-wrapper .full:hover {
+  /* visibility: visible; */
+  color: #9356DC;
 }
 .restaurants .icon {
   padding: 20px;
@@ -258,7 +275,7 @@ h1 {
 }
 .restaurant-header-wrapper .back_button {
   color: black;
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -285,6 +302,21 @@ h1 {
 }
 .restaurant .card .card-details-wrapper h1 {
   font-size: 35px;
+}
+.restaurant .card .card-details-wrapper .heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  cursor: pointer;
+}
+.restaurant .card .card-details-wrapper .heart i {
+  visibility: hidden;
+}
+.restaurant .card .card-details-wrapper .heart .i:hover {
+  visibility: visible;
+  fill: red;
+  color: red;
 }
 .restaurant .card .menus-part {
   display: flex;
@@ -343,19 +375,33 @@ h1 {
 }
 .restaurant .card .menus-part .buttons .menus-details .selection {
   display: flex;
+  flex-grow: 0;
   border: none;
-  flex-grow: 1;
   align-items: center;
-  justify-content: center;
   background-color: #99E2D0;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   height: 120px;
-  width: 80px;
+  width: 0px;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  /* opacity: 0.0; */
+  /* width: 300px;
+  background-color: $tertiary-color; */
 }
 .restaurant .card .menus-part .buttons .menus-details .selection i {
+  visibility: hidden;
+}
+.restaurant .card .menus-part .buttons .menus-details .selection:hover {
+  width: 100px;
+  /* opacity: 1.0; */
+}
+.restaurant .card .menus-part .buttons .menus-details .selection:hover i {
+  visibility: visible;
   font-size: 30px;
   color: white;
+  padding: 30px 30px;
 }
 .restaurant .card .menus-part .buttons .menus-details .price {
   display: flex;

@@ -173,11 +173,28 @@ h1 {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-    }
-    .card-details {
-        display: block;
-        width: 100%;
-        padding: 20px;
+        .card-details {
+            display: block;
+            width: 100%;
+            padding: 20px;
+        }
+        .full {
+            cursor: pointer;
+            color: grey;
+            /* visibility: hidden; */
+        }
+        .full:hover {
+            /* visibility: visible; */
+            color: $primary-color;
+        }
+        /* .empty {
+                visibility: visible;
+                z-index: 5;
+            }
+            .empty:hover {
+                visibility: hidden;
+                z-index: -1;
+            } */
     }
     .icon {
         padding: 20px;
@@ -200,7 +217,7 @@ h1 {
         justify-content: center;
         .back_button {
             color: black;
-            font-size: 40px;
+            font-size: 30px;
             position: absolute;
             top: 10px;
             left: 10px;
@@ -226,6 +243,21 @@ h1 {
             align-items: center;
             h1 {
                 font-size: 35px;
+            }
+            .heart {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: grey;
+                cursor: pointer;
+                i {
+                    visibility: hidden;
+                }
+            }
+            .heart .i:hover {
+                visibility: visible;
+                fill: red;
+                color: red;
             }
         }
         .menus-part {
@@ -282,18 +314,32 @@ h1 {
                     }
                     .selection {
                         display: flex;
+                        flex-grow: 0;
                         border: none;
-                        flex-grow: 1;
                         align-items: center;
-                        justify-content: center;
                         background-color: $tertiary-color;
                         border-bottom-right-radius: 20px;
                         border-top-right-radius: 20px;
                         height: 120px;
-                        width: 80px;
+                        width: 0px;
+                        transition-property: width;
+                        transition-duration: 1s;
+                        transition-timing-function: linear;
+                        /* opacity: 0.0; */
+                        /* width: 300px;
+                        background-color: $tertiary-color; */
                         i {
+                            visibility: hidden;
+                        }
+                    }
+                    .selection:hover {
+                        width: 100px;
+                        /* opacity: 1.0; */
+                        i {
+                            visibility: visible;
                             font-size: 30px;
                             color: white;
+                            padding: 30px 30px;
                         }
                     }
                     .price {
