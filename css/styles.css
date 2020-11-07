@@ -341,12 +341,14 @@ h1 {
   font-weight: 100;
   margin-top: 20px;
 }
-.restaurant .card .menus-part .buttons .menus-details i {
+.restaurant .card .menus-part .buttons .menus-details .selection {
+  background-color: #99E2D0;
   height: auto;
   width: auto;
+}
+.restaurant .card .menus-part .buttons .menus-details .selection i {
   font-size: 30px;
   color: white;
-  background-color: #99E2D0;
 }
 .restaurant .the-full-palette-bg-image {
   background-image: url("../img/restaurants/The_Full_Palette.jpg");

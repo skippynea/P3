@@ -1,315 +1,317 @@
-/* Main SCSS file */
-
-@import 'reset.scss';
-@import 'fonts.scss';
-@import 'colors.scss';
-@import 'header.scss';
-@import 'button.scss';
-@import 'footer.scss';
-* {
-    font-family: 'Roboto';
-}
-
-body {
-    font-family: 'Roboto';
-    display: flex;
-    flex-direction: column;
-}
-
-h1 {
-    font-family: 'Shrikhand';
-}
-
-.main-container {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px;
-}
-
-.location {
-    box-shadow: inset 1px 4px 9px -6px;
-    background-color: #eaeaea;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    padding: 20px;
-    i {
-        margin-right: 25px;
+    /* Main SCSS file */
+    
+    @import 'reset.scss';
+    @import 'fonts.scss';
+    @import 'colors.scss';
+    @import 'header.scss';
+    @import 'button.scss';
+    @import 'footer.scss';
+    * {
+        font-family: 'Roboto';
     }
-}
-
-.hero {
-    background-color: #f6f6f6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    h2 {
-        margin: 30px 0px;
-        font-size: 30px;
+    
+    body {
+        font-family: 'Roboto';
+        display: flex;
+        flex-direction: column;
     }
-    p {
-        color: grey;
-        margin: 10px 0px;
-        font-size: 18px;
+    
+    h1 {
+        font-family: 'Shrikhand';
     }
-}
-
-.choices {
-    background-color: #ffffff;
-    padding: 0px 30px;
-    h2 {
-        margin: 40px 0px;
+    
+    .main-container {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
     }
-    .buttons {
+    
+    .location {
+        box-shadow: inset 1px 4px 9px -6px;
+        background-color: #eaeaea;
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
-        cursor: pointer;
-    }
-    @media screen and (max-width: 992px) {
-        .buttons {
-            display: block;
-        }
-    }
-    .choices-button {
-        display: block;
-        margin-bottom: 40px;
-        display: flex;
-        align-items: center;
-        border: none;
-        background-color: none;
-        flex: 1 1 0%;
+        justify-content: center;
+        font-size: 28px;
         padding: 20px;
-        .choices-number {
-            border-radius: 30px;
-            color: white;
-            background-color: $primary-color;
-            padding: 7px;
-            width: 30px;
-            max-height: 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: -20px;
-            z-index: 3;
-        }
-        .button-label {
-            width: 100%;
-            font-size: 20px;
-            background: #f6f6f6;
-            border: none;
-            padding: 30px 50px;
-            border-radius: 30px;
-            color: #090909;
-            padding: 30px 40px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            i {
-                color: #888;
-                margin-right: 15px;
-            }
+        i {
+            margin-right: 25px;
         }
     }
-    @media screen and (max-width: 992px) {
-        .choices-button {
-            padding: unset;
-        }
-    }
-}
-
-.restaurants {
-    background-color: #f6f6f6;
-    padding: 30px;
-    h2 {
-        padding: 20px 0px;
-    }
-    .restaurants-cards {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: 0px -20px;
-    }
-    @media screen and (max-width: 992px) {
-        .restaurants-cards {
-            flex-direction: row;
-        }
-    }
-    .card {
-        background-color: white;
-        border-radius: 30px;
+    
+    .hero {
+        background-color: #f6f6f6;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        margin: 20px;
-        min-width: 300px;
-        text-decoration: none;
-        color: black;
-    }
-    .image {
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        height: 200px;
-        width: 100%;
-        background-size: cover;
-    }
-    .picture-full-palette {
-        background-image: url('../img/restaurants/The_Full_Palette.jpg');
-    }
-    .picture-enchanted-plate {
-        background-image: url('../img/restaurants/The_Enchanted_Plate.jpg');
-    }
-    .picture-bastille {
-        background-image: url('../img/restaurants/Bastille.jpg');
-    }
-    .picture-gourmand {
-        background-image: url('../img/restaurants/Le_Gourmand.jpg');
-    }
-    .card-details-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-    }
-    .card-details {
-        display: block;
-        width: 100%;
-        padding: 20px;
-    }
-    .icon {
-        padding: 20px;
-    }
-    @media screen and (max-width: 550px) {
-        .card {
-            width: 100%;
-            min-width: 200px;
+        text-align: center;
+        h2 {
+            margin: 30px 0px;
+            font-size: 30px;
+        }
+        p {
+            color: grey;
+            margin: 10px 0px;
+            font-size: 18px;
         }
     }
-}
-
-.restaurant {
-    &-header-wrapper {
-        background-color: white;
-        width: 100%;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .back_button {
-            color: black;
-            font-size: 40px;
-            position: absolute;
-            top: 10px;
-            left: 10px;
+    
+    .choices {
+        background-color: #ffffff;
+        padding: 0px 30px;
+        h2 {
+            margin: 40px 0px;
         }
-        .img {
-            width: 50%;
-        }
-    }
-    .main-image {
-        background-size: cover;
-        height: 300px;
-    }
-    .card {
-        border: 2px solid transparent;
-        border-top-right-radius: 25px;
-        border-top-left-radius: 25px;
-        margin-top: -75px;
-        background-color: #f6f6f6;
-        padding: 40px;
-        .card-details-wrapper {
+        .buttons {
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            h1 {
-                font-size: 35px;
+            flex-wrap: wrap;
+            cursor: pointer;
+        }
+        @media screen and (max-width: 992px) {
+            .buttons {
+                display: block;
             }
         }
-        .menus-part {
+        .choices-button {
+            display: block;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            border: none;
+            background-color: none;
+            flex: 1 1 0%;
+            padding: 20px;
+            .choices-number {
+                border-radius: 30px;
+                color: white;
+                background-color: $primary-color;
+                padding: 7px;
+                width: 30px;
+                max-height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: -20px;
+                z-index: 3;
+            }
+            .button-label {
+                width: 100%;
+                font-size: 20px;
+                background: #f6f6f6;
+                border: none;
+                padding: 30px 50px;
+                border-radius: 30px;
+                color: #090909;
+                padding: 30px 40px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                i {
+                    color: #888;
+                    margin-right: 15px;
+                }
+            }
+        }
+        @media screen and (max-width: 992px) {
+            .choices-button {
+                padding: unset;
+            }
+        }
+    }
+    
+    .restaurants {
+        background-color: #f6f6f6;
+        padding: 30px;
+        h2 {
+            padding: 20px 0px;
+        }
+        .restaurants-cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0px -20px;
+        }
+        @media screen and (max-width: 992px) {
+            .restaurants-cards {
+                flex-direction: row;
+            }
+        }
+        .card {
+            background-color: white;
+            border-radius: 30px;
             display: flex;
             flex-direction: column;
-            h2 {
-                font-size: 18px;
-                text-transform: uppercase;
-                color: #666666;
-                font-weight: 300;
-                margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            min-width: 300px;
+            text-decoration: none;
+            color: black;
+        }
+        .image {
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            height: 200px;
+            width: 100%;
+            background-size: cover;
+        }
+        .picture-full-palette {
+            background-image: url('../img/restaurants/The_Full_Palette.jpg');
+        }
+        .picture-enchanted-plate {
+            background-image: url('../img/restaurants/The_Enchanted_Plate.jpg');
+        }
+        .picture-bastille {
+            background-image: url('../img/restaurants/Bastille.jpg');
+        }
+        .picture-gourmand {
+            background-image: url('../img/restaurants/Le_Gourmand.jpg');
+        }
+        .card-details-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .card-details {
+            display: block;
+            width: 100%;
+            padding: 20px;
+        }
+        .icon {
+            padding: 20px;
+        }
+        @media screen and (max-width: 550px) {
+            .card {
+                width: 100%;
+                min-width: 200px;
             }
-            .line {
-                display: block;
-                width: 45px;
-                background-color: $tertiary-color;
-                height: 2px;
-                margin-bottom: 20px;
+        }
+    }
+    
+    .restaurant {
+        &-header-wrapper {
+            background-color: white;
+            width: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .back_button {
+                color: black;
+                font-size: 40px;
+                position: absolute;
+                top: 10px;
+                left: 10px;
             }
-            .buttons {
+            .img {
+                width: 50%;
+            }
+        }
+        .main-image {
+            background-size: cover;
+            height: 300px;
+        }
+        .card {
+            border: 2px solid transparent;
+            border-top-right-radius: 25px;
+            border-top-left-radius: 25px;
+            margin-top: -75px;
+            background-color: #f6f6f6;
+            padding: 40px;
+            .card-details-wrapper {
                 display: flex;
-                align-items: flex-end;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                margin-bottom: 20px;
-                .menus-details {
+                justify-content: space-between;
+                align-items: center;
+                h1 {
+                    font-size: 35px;
+                }
+            }
+            .menus-part {
+                display: flex;
+                flex-direction: column;
+                h2 {
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color: #666666;
+                    font-weight: 300;
+                    margin-top: 20px;
+                }
+                .line {
+                    display: block;
+                    width: 45px;
+                    background-color: $tertiary-color;
+                    height: 2px;
+                    margin-bottom: 20px;
+                }
+                .buttons {
                     display: flex;
-                    align-items: center;
+                    align-items: flex-end;
+                    flex-wrap: wrap;
                     justify-content: space-around;
-                    width: 100%;
-                    font-size: 20px;
-                    background: #f6f6f6;
-                    border: none;
-                    padding: 30px 50px;
-                    border-radius: 20px;
-                    color: #090909;
-                    padding: 10px 20px;
-                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                    .menus-text {
+                    margin-bottom: 20px;
+                    .menus-details {
                         display: flex;
-                        flex-direction: column;
-                        align-items: flex-start;
-                        justify-content: center;
-                        .h3 {
-                            font-size: 5px;
-                            color: #666666;
+                        align-items: center;
+                        justify-content: space-around;
+                        width: 100%;
+                        font-size: 20px;
+                        background: #f6f6f6;
+                        border: none;
+                        padding: 30px 50px;
+                        border-radius: 20px;
+                        color: #090909;
+                        padding: 10px 20px;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        .menus-text {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: center;
+                            .h3 {
+                                font-size: 5px;
+                                color: #666666;
+                            }
+                            .section {
+                                font-size: 5px;
+                                color: #666666;
+                                font-weight: 100;
+                                margin-top: 20px;
+                            }
                         }
-                        .section {
-                            font-size: 5px;
-                            color: #666666;
-                            font-weight: 100;
-                            margin-top: 20px;
+                        .selection {
+                            background-color: $tertiary-color;
+                            height: auto;
+                            width: auto;
+                            i {
+                                font-size: 30px;
+                                color: white;
+                            }
                         }
-                    }
-                    i {
-                        height: auto;
-                        width: auto;
-                        font-size: 30px;
-                        color: white;
-                        background-color: $tertiary-color;
                     }
                 }
             }
         }
-    }
-    .the-full-palette-bg-image {
-        background-image: url('../img/restaurants/The_Full_Palette.jpg');
-    }
-    .order_wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        background-color: #f6f6f6;
-        padding-bottom: 40px;
-        .order_validation {
-            display: inline-block;
-            text-align: center;
-            border: none;
-            .btn {
-                text-decoration: none;
-                width: 250px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        .the-full-palette-bg-image {
+            background-image: url('../img/restaurants/The_Full_Palette.jpg');
+        }
+        .order_wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: #f6f6f6;
+            padding-bottom: 40px;
+            .order_validation {
+                display: inline-block;
+                text-align: center;
+                border: none;
+                .btn {
+                    text-decoration: none;
+                    width: 250px;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }
             }
         }
     }
-}
