@@ -250,15 +250,18 @@ h1 {
                 justify-content: center;
                 color: grey;
                 cursor: pointer;
-                i {
+                /* i {
                     visibility: hidden;
-                }
+                } */
+            
+                
             }
-            .heart .i:hover {
+            .heart .i:focus {
                 visibility: visible;
                 fill: red;
                 color: red;
             }
+            
         }
         .menus-part {
             display: flex;

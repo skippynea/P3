@@ -309,11 +309,11 @@ h1 {
   justify-content: center;
   color: grey;
   cursor: pointer;
+  /* i {
+      visibility: hidden;
+  } */
 }
-.restaurant .card .card-details-wrapper .heart i {
-  visibility: hidden;
-}
-.restaurant .card .card-details-wrapper .heart .i:hover {
+.restaurant .card .card-details-wrapper .heart .i:focus {
   visibility: visible;
   fill: red;
   color: red;
