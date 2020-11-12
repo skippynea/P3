@@ -246,12 +246,17 @@ h1 {
   width: 100%;
   padding: 20px;
 }
-.restaurants .card-details-wrapper .full {
+.restaurants .card-details-wrapper .heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.restaurants .card-details-wrapper .heart .full {
   cursor: pointer;
   color: grey;
   /* visibility: hidden; */
 }
-.restaurants .card-details-wrapper .full:hover {
+.restaurants .card-details-wrapper .heart .full:hover {
   /* visibility: visible; */
   color: #9356DC;
 }

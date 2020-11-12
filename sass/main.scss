@@ -178,14 +178,19 @@ h1 {
             width: 100%;
             padding: 20px;
         }
-        .full {
-            cursor: pointer;
-            color: grey;
-            /* visibility: hidden; */
-        }
-        .full:hover {
-            /* visibility: visible; */
-            color: $primary-color;
+        .heart {
+            display : flex;
+            align-items: center;
+            justify-content: center;
+            .full {
+                cursor: pointer;
+                color: grey;
+                /* visibility: hidden; */
+            }
+            .full:hover {
+                /* visibility: visible; */
+                color: $primary-color;
+            }
         }
         /* .empty {
                 visibility: visible;
