@@ -251,24 +251,10 @@ h1 {
             h1 {
                 font-size: 35px;
             }
-            .heart {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: grey;
-                cursor: pointer;
-                /* i {
-                    visibility: hidden;
-                } */
-            
-                
+            .heart .heart_btn {
+                font-size: 35px;
             }
-            .heart .i:focus {
-                visibility: visible;
-                fill: red;
-                color: red;
-            }
-            
+                     
         }
         .menus-part {
             display: flex;

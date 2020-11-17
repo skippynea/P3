@@ -329,20 +329,8 @@ h1 {
 .restaurant .card .card-details-wrapper h1 {
   font-size: 35px;
 }
-.restaurant .card .card-details-wrapper .heart {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: grey;
-  cursor: pointer;
-  /* i {
-      visibility: hidden;
-  } */
-}
-.restaurant .card .card-details-wrapper .heart .i:focus {
-  visibility: visible;
-  fill: red;
-  color: red;
+.restaurant .card .card-details-wrapper .heart .heart_btn {
+  font-size: 35px;
 }
 .restaurant .card .menus-part {
   display: flex;
