@@ -4,15 +4,7 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: "Shrikhand";
-  src: url("../fonts/Shrikhand/Shrikhand-Regular.ttf");
-}
-/* animation.scss */
+/* animation.scss file */
 @keyframes heart-filling {
   0% {
     transform: scale(0);
@@ -32,6 +24,14 @@
     transform: scale(0);
     z-index: -1;
   }
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "Shrikhand";
+  src: url("../fonts/Shrikhand/Shrikhand-Regular.ttf");
 }
 /********************* Color reference chart*****************/
 header {
@@ -459,9 +459,21 @@ h1 {
 }
 
 .heart_btn {
+  margin: 0px 10px;
   background: none;
   border: none;
   cursor: pointer;
+  font-size: 18px;
+}
+.heart_btn:hover .heart_icon {
+  animation: heart-vanish 0.4s ease-in-out;
+  color: #9356DC;
+}
+.heart_btn:hover .heart_icon_hover {
+  z-index: 1;
+  opacity: 1;
+  animation: heart-filling 0.8s ease-in-out;
+  color: #9356DC;
 }
 
 .heart_icon {

@@ -1,12 +1,13 @@
 /* Main SCSS file */
 
 @import 'reset.scss';
-@import 'fonts.scss';
 @import 'animation.scss';
+@import 'fonts.scss';
 @import 'colors.scss';
 @import 'header.scss';
 @import 'button.scss';
 @import 'footer.scss';
+
 * {
     font-family: 'Roboto';
 }
@@ -387,9 +388,21 @@ h1 {
 
 
 .heart_btn {
-    background:none;
+    margin: 0px 10px;
+    background: none;
     border:none;
     cursor: pointer;
+    font-size: 18px;
+    &:hover .heart_icon {
+         animation: heart-vanish 0.4s ease-in-out;
+         color: $primary-color;
+    }
+    &:hover .heart_icon_hover {
+        z-index: 1;
+        opacity: 1;
+        animation: heart-filling 0.8s ease-in-out;
+        color: $primary-color;
+   }
 
 }
 
