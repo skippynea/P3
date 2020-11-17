@@ -25,7 +25,7 @@ header img {
   max-width: 400px;
 }
 
-button {
+button.cta {
   font-size: 20px;
   color: white;
   background: #ec00eb;
