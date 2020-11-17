@@ -393,8 +393,10 @@ h1 {
 
 .heart_icon {
     position: absolute;
+    z-index: 1;
 }
 .heart_icon_hover {
     position: relative;
+    z-index: -1;
 }
-}
+
