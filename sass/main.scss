@@ -309,10 +309,11 @@ h1 {
                         }
                     }
                     .selection {
-                        display: flex;
-                        flex-grow: 0;
+                        color: white;
                         border: none;
+                        display: flex;
                         align-items: center;
+                        justify-content: center;
                         background-color: $tertiary-color;
                         border-bottom-right-radius: 20px;
                         border-top-right-radius: 20px;
@@ -333,7 +334,7 @@ h1 {
                     
                     .price {
                         display: flex;
-                        /* background-color: yellowgreen; */
+                        background-color: yellowgreen;
                         padding-top: 28px;
                         padding-right: 40px;
                         padding-left: 20px;
@@ -344,10 +345,11 @@ h1 {
                         overflow: hidden;
                         /* opacity: 1.0; */
                         i {
+                            color : white;
                             visibility: visible;
-                            transform: rotate(90deg);
+                            transition: all 2s ease-in-out;
+                            transform: rotate(720deg);
                             font-size: 30px;
-                            color: white;
                             padding: 30px 30px;
                         }
                     }
