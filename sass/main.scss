@@ -328,7 +328,15 @@ h1 {
                             visibility: hidden;
                         }
                     }
-                    .selection:hover {
+                    
+                    .price {
+                        display: flex;
+                        flex-grow: 1;
+                        /* background-color: yellowgreen; */
+                        padding-top: 30px;
+                        padding-right: 40px;
+                    }
+                    &:hover .selection {
                         width: 100px;
                         /* opacity: 1.0; */
                         i {
@@ -338,13 +346,10 @@ h1 {
                             padding: 30px 30px;
                         }
                     }
-                    .price {
-                        display: flex;
-                        flex-grow: 1;
-                        /* background-color: yellowgreen; */
-                        padding-top: 30px;
-                        padding-right: 40px;
-                    }
+
+                }
+                .menus-details:hover {
+
                 }
             }
         }
