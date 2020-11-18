@@ -407,22 +407,22 @@ h1 {
 .restaurant .card .menus-part .buttons .menus-details .selection i {
   visibility: hidden;
 }
-.restaurant .card .menus-part .buttons .menus-details .selection:hover {
-  width: 100px;
-  /* opacity: 1.0; */
-}
-.restaurant .card .menus-part .buttons .menus-details .selection:hover i {
-  visibility: visible;
-  font-size: 30px;
-  color: white;
-  padding: 30px 30px;
-}
 .restaurant .card .menus-part .buttons .menus-details .price {
   display: flex;
   flex-grow: 1;
   /* background-color: yellowgreen; */
   padding-top: 30px;
   padding-right: 40px;
+}
+.restaurant .card .menus-part .buttons .menus-details:hover .selection {
+  width: 100px;
+  /* opacity: 1.0; */
+}
+.restaurant .card .menus-part .buttons .menus-details:hover .selection i {
+  visibility: visible;
+  font-size: 30px;
+  color: white;
+  padding: 30px 30px;
 }
 .restaurant .the-full-palette-bg-image {
   background-image: url("../img/restaurants/The_Full_Palette.jpg");
