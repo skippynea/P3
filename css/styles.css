@@ -409,13 +409,12 @@ h1 {
 }
 .restaurant .card .menus-part .buttons .menus-details .price {
   display: flex;
-  flex-grow: 1;
   /* background-color: yellowgreen; */
-  padding-top: 30px;
-  padding-right: 40px;
+  padding: 0px 20px;
 }
 .restaurant .card .menus-part .buttons .menus-details:hover .selection {
   width: 100px;
+  overflow: hidden;
   /* opacity: 1.0; */
 }
 .restaurant .card .menus-part .buttons .menus-details:hover .selection i {

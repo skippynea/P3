@@ -331,14 +331,13 @@ h1 {
                     
                     .price {
                         display: flex;
-                        flex-grow: 1;
                         /* background-color: yellowgreen; */
-                        padding-top: 30px;
-                        padding-right: 40px;
+                        padding: 0px 20px;
                     }
-                    
+
                     &:hover .selection {
                         width: 100px;
+                        overflow: hidden;
                         /* opacity: 1.0; */
                         i {
                             visibility: visible;
