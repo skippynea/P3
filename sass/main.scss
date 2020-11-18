@@ -321,18 +321,22 @@ h1 {
                         transition-property: width;
                         transition-duration: 0.3s;
                         transition-timing-function: linear;
+                        
                         /* opacity: 0.0; */
                         /* width: 300px;
                         background-color: $tertiary-color; */
                         i {
                             visibility: hidden;
+                            
                         }
                     }
                     
                     .price {
                         display: flex;
                         /* background-color: yellowgreen; */
-                        padding: 0px 20px;
+                        padding-top: 28px;
+                        padding-right: 40px;
+                        padding-left: 20px;
                     }
 
                     &:hover .selection {
@@ -341,6 +345,7 @@ h1 {
                         /* opacity: 1.0; */
                         i {
                             visibility: visible;
+                            transform: rotate(90deg);
                             font-size: 30px;
                             color: white;
                             padding: 30px 30px;
