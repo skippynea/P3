@@ -58,6 +58,10 @@ h1 {
         margin: 10px 0px;
         font-size: 18px;
     }
+    &:hover .cta {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+        background-color: lighten($color: $primary-color, $amount: 100%);
+    }
 }
 
 .choices {
@@ -359,13 +363,13 @@ h1 {
                 
                 
             }
-            .menus-part .buttons { 
-                animation-name: gradual-onset;
-                animation-duration: 2s;
-                &:hover .menus-part .buttons { 
-                animation-name: gradual-onset;
-                animation-duration: 2s;
-            }
+            .buttons { 
+                /* visibility: hidden; */
+                &:hover .menus-details { 
+                    /* visibility: visible; */
+                    animation-name: gradual-onset;
+                    animation-duration: 1.5s;
+                }
             }
             
         }
@@ -389,6 +393,11 @@ h1 {
                 width: 250px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
+            
+        }
+        &:hover .cta {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+            background-color: lighten($color: $primary-color, $amount: 100%);
         }
     }
 }
