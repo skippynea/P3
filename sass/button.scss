@@ -9,3 +9,7 @@ button.cta {
     margin: 20px 0px;
     cursor: pointer;
 }
+
+button.cta:hover {
+    filter: brightness (85%);
+}
