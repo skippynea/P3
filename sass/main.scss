@@ -74,7 +74,7 @@ h1 {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        cursor: pointer;
+        
     }
     @media screen and (max-width: 992px) {
         .buttons {
@@ -104,6 +104,7 @@ h1 {
             z-index: 3;
         }
         .button-label {
+            cursor: pointer;
             width: 100%;
             font-size: 20px;
             background: #f6f6f6;
