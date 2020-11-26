@@ -8,8 +8,9 @@ button.cta {
     border-radius: 40px;
     margin: 20px 0px;
     cursor: pointer;
+    opacity: 1;
 }
 
 button.cta:hover {
-    filter: brightness (85%);
+    opacity: 0.6;
 }

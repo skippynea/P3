@@ -78,10 +78,11 @@ button.cta {
   border-radius: 40px;
   margin: 20px 0px;
   cursor: pointer;
+  opacity: 1;
 }
 
 button.cta:hover {
-  filter: brightness 85%;
+  opacity: 0.6;
 }
 
 footer {
@@ -191,7 +192,7 @@ h1 {
   display: flex;
   align-items: center;
   border: none;
-  background-color: none;
+  background-color: transparent;
   flex: 1 1 0%;
   padding: 20px;
 }
@@ -222,6 +223,9 @@ h1 {
 .choices .choices-button .button-label i {
   color: #888;
   margin-right: 15px;
+}
+.choices .choices-button:hover .button-label {
+  background-color: #e4d5f6;
 }
 @media screen and (max-width: 992px) {
   .choices .choices-button {
