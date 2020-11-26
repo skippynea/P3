@@ -422,7 +422,6 @@ h1 {
   margin-top: 20px;
 }
 .restaurant .card .menus-part .buttons .menus-details .selection {
-  color: white;
   border: none;
   display: flex;
   align-items: center;
@@ -455,7 +454,6 @@ h1 {
   /* opacity: 1.0; */
 }
 .restaurant .card .menus-part .buttons .menus-details:hover .selection i {
-  color: white;
   visibility: visible;
   transition: all 0.6s ease-in-out;
   transform: rotate(360deg);
