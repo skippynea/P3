@@ -434,6 +434,7 @@ h1 {
   transition-property: width;
   transition-duration: 0.3s;
   transition-timing-function: linear;
+  color: white;
   /* opacity: 0.0; */
   /* width: 300px;
   background-color: $tertiary-color; */
