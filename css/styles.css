@@ -467,8 +467,8 @@ h1 {
 }
 .restaurant .card .menus-part .buttons:hover .menus-details {
   /* visibility: visible; */
-  animation-name: gradual-onset;
-  animation-duration: 1.5s;
+  /* animation-name: gradual-onset;
+  animation-duration: 1.5s; */
 }
 .restaurant .the-full-palette-bg-image {
   background-image: url("../img/restaurants/The_Full_Palette.jpg");
