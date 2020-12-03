@@ -32,12 +32,8 @@
 
 @keyframes gradual-onset {
     0%{
-        visibility: hidden;
         opacity: 0;
-    }
-    70%{
-        visibility: visible;
-        opacity: 0.5;
+        transform: translateY(20%);
     }
     100%{
         opacity: 1;
