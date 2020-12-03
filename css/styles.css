@@ -171,6 +171,10 @@ h1 {
 .choices h2 {
   margin: 40px 0px;
 }
+.choices .index-container {
+  display: flex;
+  align-items: center;
+}
 .choices .buttons {
   display: flex;
   align-items: center;
