@@ -367,12 +367,13 @@ h1 {
             }
             .buttons { 
                 animation: gradual-onset 1000ms ease-in-out both;
-                @for $i from 1 through 4 {
-                    .animation--delay-&:nth-child(#{$i}) {
-                        animation-delay: ($i*1000ms);
+                
+            }
+            @for $i from 1 through 4 {
+                    .animation--delay-#{$i} {
+                        animation-delay: ($i*200ms);
                     }
                 }
-            }
            
             /* visibility: hidden; */
             &:hover .menus-details { 
