@@ -485,6 +485,15 @@ h1 {
 .restaurant .the-full-palette-bg-image {
   background-image: url("../img/restaurants/The_Full_Palette.jpg");
 }
+.restaurant .the-enchanted-plate-bg-image {
+  background-image: url("../img/restaurants/The_Enchanted_Plate.jpg");
+}
+.restaurant .bastille-bg-image {
+  background-image: url("../img/restaurants/Bastille.jpg");
+}
+.restaurant .le-gourmand-bg-image {
+  background-image: url("../img/restaurants/Le_Gourmand.jpg");
+}
 .restaurant .order_wrapper {
   display: flex;
   flex-wrap: wrap;

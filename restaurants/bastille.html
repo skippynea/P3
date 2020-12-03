@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel=" icon " type="image/png " href="img/logo/ohmyfood.png ">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel=" icon " type="image/png " href="../img/logo/ohmyfood.png ">
     <!-- KIT FONTAWESOME -->
     <script src="https://kit.fontawesome.com/57c5edf8bb.js " crossorigin="anonymous "></script>
 
@@ -22,82 +22,174 @@
             <img src="../img/logo/ohmyfood.png">
         </div>
     </header>
-    <div class="main-container ">
+
+    <main class="restaurant-main-container ">
         <!--principal Box with "restaurant name" and "all the Menu"-->
-
-        <!--id for restaurant 3 : "BASTILLE"-->
-        <div class="card ">
-            <div class="image picture-bastille "></div>
-            <div class="card-details-wrapper">
-                <div class="card-details">
-                    <h4>Bastille</h4>
-                    <span class="city">New York</span>
+        <div class="restaurant">
+            <div class="main-image bastille-bg-image"></div>
+            <!--id for restaurant 1 : " BASTILLE "-->
+            <div class="card ">
+                <div class="card-details-wrapper">
+                    <h1>Bastille</h1>
+                    <div class="heart">
+                        <button class="heart_btn">
+                            <i class="far fa-heart heart_icon"></i>
+                            <i class="fas fa-heart heart_icon_hover"></i>
+                        </button>
+                    </div>
                 </div>
-                <span class="far fa-heart icon"></span>
+                <!--Menus choices-->
+                <div class="menus-part ">
+                    <h2>ENTREES</h2>
+                    <div class="line "></div>
+                    <!--Starts choices-->
+                    <div class="buttons animation--delay-1">
+                        <div class="menus-details ">
+                            <div class="menus-text ">
+                                <h3>Citrus Squid Carpaccio</h3>
+                                <section>with orange zest</section>
+                            </div>
+                            <span class="price ">25&euro;</span>
+                            <div class="selection">
+                                <span class="menus-choice " href="#choice ">
+                                    <i class="fas fa-check-circle "></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons animation--delay-2">
+                        <div class="menus-details ">
+                            <div class="menus-text ">
+                                <h3>Duck Foie Gras</h3>
+                                <section>with black truffle shavings</section>
+                            </div>
+                            <span class="price ">35&euro;</span>
+                            <div class="selection">
+                                <span class="menu-choice " href="#choice ">
+                                    <i class="fas fa-check-circle "></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons animation--delay-3">
+                        <div class="menus-details ">
+                            <div class="menus-text ">
+                                <h3>Fried egg</h3>
+                                <section>...</section>
+                            </div>
+                            <span class="price ">20&euro;</span>
+                            <div class="selection">
+                                <span class="menu-choice " href="#choice ">
+                                    <i class="fas fa-check-circle "></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menus-part ">
+                    <h2>MAIN DISH</h2>
+                    <div class="line "></div>
+                    <!--Main choices-->
+                    <div class="buttons animation--delay-1">
+                        <div class="menus-details ">
+                            <div class="menus-text ">
+                                <h3>Herb-Encrusted Steak</h3>
+                                <section>With delicately sliced and seasonned vegetables</section>
+                            </div>
+                            <span class="price ">40&euro;</span>
+                            <div class="selection">
+                                <span class="menu-choice " href="#choice ">
+                                    <i class="fas fa-check-circle "></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons animation--delay-2">
+                        <div class="menus-details ">
+                            <div class="menus-text ">
+                                <h3>Ox Tail Shepard's Pie</h3>
+                                <section>with black truffle and pureed parsnips</section>
+                            </div>
+                            <span class="price ">35&euro;</span>
+                            <div class="selection">
+                                <span class="menu-choice " href="#choice ">
+                                    <i class="fas fa-check-circle "></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons animation--delay-3">
+                        <div class="menus-details ">
+                            <div class="menus-text ">
+                                <h3>Filet of Sole</h3>
+                                <section>with citrus dressing</section>
+                            </div>
+                            <span class="price ">44&euro;</span>
+                            <div class="selection">
+                                <span class="menu-choice " href="#choice ">
+                                    <i class="fas fa-check-circle "></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menus-part ">
+                        <h2>DESSERTS</h2>
+                        <div class="line "></div>
+                        <!--Desserts choice-->
+                        <div class="buttons animation--delay-1">
+                            <div class="menus-details ">
+                                <div class="menus-text ">
+                                    <h3>Paris-Brest</h3>
+                                    <section>Revisited</section>
+                                </div>
+                                <span class="price ">18&euro;</span>
+                                <div class="selection">
+                                    <span class="menu-choice " href="#choice ">
+                                        <i class="fas fa-check-circle "></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons animation--delay-2">
+                            <div class="menus-details ">
+                                <div class="menus-text ">
+                                    <h3>Chocolate Macaroons</h3>
+                                    <section>With vanilla ice cream</section>
+                                </div>
+                                <span class="price ">22&euro;</span>
+                                <div class="selection">
+                                    <span class="menu-choice " href="#choice ">
+                                        <i class="fas fa-check-circle "></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons animation--delay-3">
+                            <div class="menus-details ">
+                                <div class="menus-text ">
+                                    <h3>Chocolate Mousse</h3>
+                                    <section>With spices and black truffle</section>
+                                </div>
+                                <span class="price ">23&euro;</span>
+                                <div class="selection">
+                                    <span class="menu-choice " href="#choice ">
+                                        <i class="fas fa-check-circle "></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=order_wrapper>
+                    <a class="order_validation " href="#order ">
+                        <!--Box "order "-->
+                        <button class="cta">Order</button>
+                    </a>
+                </div>
             </div>
         </div>
-
-        <div class="menu">
-            <!--Menu choice-->
-            <div class="entrees">
-                <h2>ENTREES</h2>
-                <!--Starts choice-->
-                <div class="start01">
-                    <div class="start_title_01">Escargot</div>
-                    <div class="start_description_01">With southern French spices</div>
-                    <div class="start_price_01">25&euro;</div>
-                </div>
-                <div class="start02">
-                    <div class="start_title_02">Escargot</div>
-                    <div class="start_description_02">with black truffle shavings</div>
-                    <div class="start_price_02">35&euro;</div>
-                </div>
-                <div class="start03">
-                    <div class="start_title_03">Fried egg</div>
-                    <div class="start_description_03">...</div>
-                    <div class="start_price_03">35&euro;</div>
-                </div>
-            </div>
-            <div class="main_dish">
-                <h2>MAIN DISH</h2>
-                <!--Main choice-->
-                <div class="main01">
-                    <div class="main_title_01 ">Escargot</div>
-                    <div class="main_description_01 ">With southern French spices</div>
-                    <div class="main_price_01 ">25&euro;</div>
-                </div>
-                <div class="main02">
-                    <div class="main_title_02">Escargot</div>
-                    <div class="main_description_02">with black truffle shavings</div>
-                    <div class="main_price_02">35&euro;</div>
-                </div>
-                <div class="main03">
-                    <div class="main_title_03">Fried egg</div>
-                    <div class="main_description_03">...</div>
-                    <div class="main_price_03">35&euro;</div>
-                </div>
-            </div>
-            <div class="desserts">
-                <h2>DESSERTS</h2>
-                <!--Desserts choice-->
-                <div class="dessert_01">
-                    <div class="dessert_title_01">Paris-Brest</div>
-                    <div class="dessert_description_01">Revisited</div>
-                    <div class="dessert_price_01">18&euro;</div>
-                </div>
-                <div class="dessert_02">
-                    <div class="dessert_title_02">Chocolate Macaroons</div>
-                    <div class="dessert_description_02">With vanilla ice cream</div>
-                    <div class="dessert_price_02 ">22&euro;</div>
-                </div>
-                <div class="dessert_03 ">
-                    <div class="dessert_title_03 ">Chocolate Mousse</div>
-                    <div class="dessert_description_03 ">With spices and black truffle</div>
-                    <div class="dessert_price_03 ">23&euro;</div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
 
     <footer>
         <!--Box "Informations at bottom of all pages "-->
