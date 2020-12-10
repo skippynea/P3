@@ -128,6 +128,13 @@ h1 {
   margin: auto;
 }
 
+@media screen and (max-width: 550px) {
+  .container {
+    max-width: 900px;
+    background-color: red;
+    margin: unset;
+  }
+}
 .main-container {
   background-color: #ffffff;
   display: flex;

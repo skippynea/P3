@@ -27,6 +27,14 @@ h1 {
     background-color:red;
     margin: auto;
 }
+@media screen and (max-width: 550px) {
+    .container {
+        max-width: 900px;
+        background-color:red;
+        margin: unset;
+    }
+}
+
 
 .main-container {
     background-color: #ffffff;
