@@ -123,7 +123,9 @@ h1 {
 }
 
 .container {
+  max-width: 900px;
   background-color: red;
+  margin: auto;
 }
 
 .main-container {
