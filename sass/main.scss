@@ -306,15 +306,16 @@ h1 {
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                     
                     .menus-text {
-                        /* overflow: hidden;
+                        overflow: hidden;
                         text-overflow: ellipsis;
                         white-space: nowrap;
-                        display: block; */
-                        display:block;
-                        flex-direction: column;
+                        display: block;
+                        width:100%;
+                        /* display:flex; */
+                        /* flex-direction: column;
                         flex-grow: 6;
                         align-items: flex-start;
-                        justify-content: center;
+                        justify-content: center; */
                         padding: 20px;
                         
                         .h3 {
@@ -322,12 +323,6 @@ h1 {
                             color: #666666;
                         }
                         .p {
-                            /* display:block;
-                            width: 75%; */
-                            /* white-space: nowrap; */
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                            
                             font-size: 5px;
                             color: #666666;
                             font-weight: 100;
@@ -336,7 +331,7 @@ h1 {
                         }
                         .truncate {
                             display: block;
-                            max-width: 200px;
+                            max-width: auto;
                             white-space: nowrap;
                             overflow: hidden;
                             text-overflow: ellipsis;
