@@ -24,12 +24,10 @@ h1 {
 
 .container {
     max-width: 1400px;
-    background-color:red;
     margin: auto;
 }
 @media screen and (max-width: 550px) {
     .container {
-        background-color:red;
         margin: unset;
     }
 }
