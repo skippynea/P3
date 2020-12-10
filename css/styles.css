@@ -405,7 +405,11 @@ h1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .restaurant .card .menus-part .buttons .menus-details .menus-text {
-  display: flex;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block; */
+  display: block;
   flex-direction: column;
   flex-grow: 6;
   align-items: flex-start;
@@ -416,11 +420,23 @@ h1 {
   font-size: 5px;
   color: #666666;
 }
-.restaurant .card .menus-part .buttons .menus-details .menus-text .section {
+.restaurant .card .menus-part .buttons .menus-details .menus-text .p {
+  /* display:block;
+  width: 75%; */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-size: 5px;
   color: #666666;
   font-weight: 100;
   margin-top: 20px;
+}
+.restaurant .card .menus-part .buttons .menus-details .menus-text .truncate {
+  display: block;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .restaurant .card .menus-part .buttons .menus-details .selection {
   border: none;

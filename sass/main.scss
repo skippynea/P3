@@ -304,26 +304,45 @@ h1 {
                     border-radius: 20px;
                     color: #090909;
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    
                     .menus-text {
+                        /* overflow: hidden;
+                        text-overflow: ellipsis;
                         white-space: nowrap;
-                        display: flex;
+                        display: block; */
+                        display:block;
                         flex-direction: column;
                         flex-grow: 6;
                         align-items: flex-start;
                         justify-content: center;
                         padding: 20px;
+                        
                         .h3 {
                             font-size: 5px;
                             color: #666666;
                         }
                         .p {
+                            /* display:block;
+                            width: 75%; */
+                            /* white-space: nowrap; */
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            
                             font-size: 5px;
                             color: #666666;
                             font-weight: 100;
                             margin-top: 20px;
-                            text-overflow: ellipsis;
-                            overflow: hidden;
+                            
                         }
+                        .truncate {
+                            display: block;
+                            max-width: 200px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                        
+                        
                     }
                     
                     .selection {
