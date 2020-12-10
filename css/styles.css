@@ -127,9 +127,10 @@ h1 {
   margin: auto;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 760px) {
   .container {
     margin: unset;
+    width: 100%;
   }
 }
 /* .main-container {
