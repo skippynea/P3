@@ -33,13 +33,13 @@ h1 {
 }
 
 
-.main-container {
+/* .main-container {
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 0px;
-}
+} */
 
 .location {
     box-shadow: inset 1px 4px 9px -6px;
@@ -231,7 +231,7 @@ h1 {
     .icon {
         padding: 20px;
     }
-    @media screen and (max-width: 550px) {
+    @media screen and (max-width: 760px) {
         .card {
             width: 100%;
             min-width: 200px;

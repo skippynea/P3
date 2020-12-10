@@ -132,14 +132,13 @@ h1 {
     margin: unset;
   }
 }
-.main-container {
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0px;
-}
-
+/* .main-container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+} */
 .location {
   box-shadow: inset 1px 4px 9px -6px;
   background-color: #eaeaea;
@@ -328,7 +327,7 @@ h1 {
 .restaurants .icon {
   padding: 20px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 760px) {
   .restaurants .card {
     width: 100%;
     min-width: 200px;
