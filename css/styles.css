@@ -52,6 +52,10 @@
   src: url("../fonts/Shrikhand/Shrikhand-Regular.ttf");
 }
 /********************* Color reference chart*****************/
+.loader {
+  display: flex;
+}
+
 header {
   font-family: "Shrikhand";
   display: flex;
