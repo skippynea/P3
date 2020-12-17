@@ -451,9 +451,11 @@ h1 {
             display: inline-block;
             text-align: center;
             border: none;
+            & .cta {
+                width:250px;
+            }
             .btn {
                 text-decoration: none;
-                width: 250px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
             &:hover .cta {

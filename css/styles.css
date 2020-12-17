@@ -195,7 +195,7 @@
 .loader {
   background-color: white;
   display: flex;
-  width: 100vh;
+  width: 100%;
   height: 100vh;
   align-items: center;
   justify-content: center;
@@ -690,9 +690,11 @@ h1 {
   text-align: center;
   border: none;
 }
+.restaurant .order_wrapper .order_validation .cta {
+  width: 250px;
+}
 .restaurant .order_wrapper .order_validation .btn {
   text-decoration: none;
-  width: 250px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .restaurant .order_wrapper .order_validation:hover .cta {
