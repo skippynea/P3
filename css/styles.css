@@ -43,6 +43,26 @@
     opacity: 1;
   }
 }
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    z-index: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 1;
+    z-index: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-Medium.ttf");
@@ -54,6 +74,20 @@
 /********************* Color reference chart*****************/
 .loader {
   display: flex;
+  width: 100vh;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: fade-out;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: forward;
+  animation-timing-function: ease-in;
 }
 
 header {
