@@ -51,10 +51,14 @@
     }
 }
 
-@keyframes fade-in {
+@keyframes fade {
     0%{
         opacity: 1;
-        z-index: 1;
+        z-index: 4;
+    }
+    90%{
+        opacity: 1;
+        z-index: 4;
     }
     100%{
         opacity: 0;
