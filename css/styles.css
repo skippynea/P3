@@ -270,6 +270,7 @@ footer .icon {
 }
 
 body {
+  max-width: 1400px;
   font-family: "Roboto";
   display: flex;
   flex-direction: column;
@@ -291,6 +292,7 @@ h1 {
   }
 }
 /* .main-container {
+    max-width: 1400px;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
