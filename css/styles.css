@@ -194,9 +194,10 @@
 /********************* Color reference chart*****************/
 .loader {
   background-color: white;
+  background-position: 50% 50%;
   display: flex;
-  width: 100%;
-  height: 100vh;
+  width: 120vh;
+  height: 120vh;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -291,14 +292,6 @@ h1 {
     width: 100%;
   }
 }
-/* .main-container {
-    max-width: 1400px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px;
-} */
 .location {
   box-shadow: inset 1px 4px 9px -6px;
   background-color: #eaeaea;
