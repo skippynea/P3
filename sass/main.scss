@@ -217,21 +217,12 @@ h1 {
             .full {
                 cursor: pointer;
                 color: grey;
-                /* visibility: hidden; */
             }
             .full:hover {
-                /* visibility: visible; */
                 color: $primary-color;
             }
         }
-        /* .empty {
-                visibility: visible;
-                z-index: 5;
-            }
-            .empty:hover {
-                visibility: hidden;
-                z-index: -1;
-            } */
+        
     }
     .icon {
         padding: 20px;
@@ -317,7 +308,6 @@ h1 {
                     font-size: 20px;
                     background: #f6f6f6;
                     cursor: pointer;
-                    /* border: none; */
                     border-radius: 20px;
                     color: #090909;
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -328,11 +318,6 @@ h1 {
                         white-space: nowrap;
                         display: block;
                         width:100%;
-                        /* display:flex; */
-                        /* flex-direction: column;
-                        flex-grow: 6;
-                        align-items: flex-start;
-                        justify-content: center; */
                         padding: 20px;
                         
                         .h3 {
@@ -371,9 +356,6 @@ h1 {
                         transition-duration: 0.3s;
                         transition-timing-function: linear;
                         color: white;
-                        /* opacity: 0.0; */
-                        /* width: 300px;
-                        background-color: $tertiary-color; */
                         i {
                             visibility: hidden;
                             
@@ -382,7 +364,6 @@ h1 {
                     
                     .price {
                         display: flex;
-                        /* background-color: yellowgreen; */
                         padding-top: 28px;
                         padding-right: 40px;
                         padding-left: 20px;
@@ -391,7 +372,6 @@ h1 {
                     &:hover .selection {
                         width: 100px;
                         overflow: hidden;
-                        /* opacity: 1.0; */
                         i {
                             visibility: visible;
                             transition: all 0.6s ease-in-out;
@@ -414,15 +394,7 @@ h1 {
                         animation-delay: ($i*200ms);
                     }
                 }
-           
-            /* visibility: hidden; */
-            &:hover .menus-details { 
-                /* visibility: visible; */
-                /* animation-name: gradual-onset;
-                animation-duration: 1.5s; */
-            }
-            
-            
+
         }
     }
     .the-full-palette-bg-image {
