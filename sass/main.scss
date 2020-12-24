@@ -29,6 +29,12 @@ h1 {
     max-width: 1400px;
     margin: auto;
 }
+
+.small-container {
+    max-width: 1400px;
+    margin: auto;
+}
+
 @media screen and (max-width: 760px) {
     .container {
         margin: unset;
