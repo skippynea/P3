@@ -494,7 +494,7 @@ h1 {
 }
 .restaurant .card .menus-part .buttons .menus-details .menus-text .truncate {
   display: block;
-  max-width: auto;
+  max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
