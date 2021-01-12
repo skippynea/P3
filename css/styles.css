@@ -67,6 +67,14 @@
     z-index: -1;
   }
 }
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-Medium.ttf");
@@ -101,14 +109,6 @@
   animation: rotating 3s linear infinite;
 }
 
-@keyframes rotating {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 header {
   font-family: "Shrikhand";
   display: flex;
