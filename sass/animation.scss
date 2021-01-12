@@ -40,6 +40,20 @@
     }
 }
 
+@keyframes fade-in {
+    0%, 90%{
+        opacity: 0;
+        z-index: -1;
+        width: 1px;
+    }
+    100%{
+        opacity: 1;
+        z-index: 4;
+        width: 100%;
+    }
+    
+}
+
 @keyframes fade-out {
     0%{
         opacity: 1;
@@ -55,20 +69,7 @@
     }
 }
 
-@keyframes fade-in {
-    100%{
-        opacity: 1;
-        z-index: 4;
-    }
-    90%{
-        opacity: 1;
-        z-index: 4;
-    }
-    0%{
-        opacity: 0;
-        z-index: -1;
-    }
-}
+
 
 @keyframes rotating {
     0% {

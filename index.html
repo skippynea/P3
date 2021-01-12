@@ -21,153 +21,155 @@
             <i class="fas fa-spinner"></i>
         </div>
     </div>
-    <header>
-        <img src="img/logo/ohmyfood.png" alt="">
-    </header>
-    
-        <!--"location " and "how it works " and "different restaurants available"-->
-        <section class="location">
-            <div class="container">
-                <!--Box "Explore Restaurants by location "-->
-                <i class="fas fa-map-marker-alt"></i>
-                <span class="location-city">Paris, Belleville</span>
-            </div>
-        </section>
+    <div class="loaded">
+        <header>
+            <img src="img/logo/ohmyfood.png" alt="">
+        </header>
+        
+            <!--"location " and "how it works " and "different restaurants available"-->
+            <section class="location">
+                <div class="container">
+                    <!--Box "Explore Restaurants by location "-->
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="location-city">Paris, Belleville</span>
+                </div>
+            </section>
 
-        <section class="hero">
-            <div class="container">    
-                <!--Box "hero"-->
-                <h1>Book the menu you like</h1>
-                <p>Discover top-of-the-art restaurants we picked for you</p>
-                <button class="cta">Explore our restaurants</button>
-            </div>
-        </section>
+            <section class="hero">
+                <div class="container">    
+                    <!--Box "hero"-->
+                    <h1>Book the menu you like</h1>
+                    <p>Discover top-of-the-art restaurants we picked for you</p>
+                    <button class="cta">Explore our restaurants</button>
+                </div>
+            </section>
 
-        <section class="choices">
-            <div class="container">
-                <h2>How it works</h2>
-                <!--Box "how it works" : with 3 buttons-->
-                    <div class="buttons">
-                        <!--button to "choose a restaurant"-->
-                        <div class="choices-button">
-                            <span class="choices-number">1</span>
-                            <div class="button-label">
-                                <i class="fas fa-mobile-alt"></i> Choose a restaurant
+            <section class="choices">
+                <div class="container">
+                    <h2>How it works</h2>
+                    <!--Box "how it works" : with 3 buttons-->
+                        <div class="buttons">
+                            <!--button to "choose a restaurant"-->
+                            <div class="choices-button">
+                                <span class="choices-number">1</span>
+                                <div class="button-label">
+                                    <i class="fas fa-mobile-alt"></i> Choose a restaurant
+                                </div>
+                            </div>
+                            <!--button to "create your menu"-->
+                            <div class="choices-button">
+                                <span class="choices-number">2</span>
+                                <div class="button-label">
+                                    <i class="fas fa-bars"></i> Create your menu
+                                </div>
+                            </div>
+                            <!--button to "pick-up your meal at the restaurant"-->
+                            <div class="choices-button">
+                                <span class="choices-number">3</span>
+                                <div class="button-label">
+                                    <i class="fas fa-store"></i> Go enjoy it at the restaurant
+                                </div>
                             </div>
                         </div>
-                        <!--button to "create your menu"-->
-                        <div class="choices-button">
-                            <span class="choices-number">2</span>
-                            <div class="button-label">
-                                <i class="fas fa-bars"></i> Create your menu
+                </div>
+            </section>
+
+            <main class="restaurants">
+                <div class="container">
+                    <h2>Restaurants</h2>
+                    <!--Box "different restaurants available"-->
+                    <div class="restaurants-cards">
+                        <!--id for restaurant 1-->
+                        <a class="card" href="restaurants/the_full_palette.html">
+                            <div class="image picture-full-palette"></div>
+                            <div class="card-details-wrapper">
+                                <div class="card-details">
+                                    <h4>The Full Palette</h4>
+                                    <span class="city">New York</span>
+                                </div>
+                                <button class="heart_btn">
+                                    <i class="far fa-heart heart_icon"></i>
+                                    <i class="fas fa-heart heart_icon_hover"></i>
+                                </button>
                             </div>
-                        </div>
-                        <!--button to "pick-up your meal at the restaurant"-->
-                        <div class="choices-button">
-                            <span class="choices-number">3</span>
-                            <div class="button-label">
-                                <i class="fas fa-store"></i> Go enjoy it at the restaurant
+                        </a>
+                        <!--id for restaurant 2-->
+                        <a class="card" href="restaurants/the_enchanted_plate.html">
+                            <div class="image picture-enchanted-plate"></div>
+                            <div class="card-details-wrapper">
+                                <div class="card-details">
+                                    <h4>The Enchanted Plate</h4>
+                                    <span class="city">New York</span>
+                                </div>
+                                <button class="heart_btn">
+                                    <i class="far fa-heart heart_icon"></i>
+                                    <i class="fas fa-heart heart_icon_hover"></i>
+                                </button>
                             </div>
-                        </div>
+                        </a>
+                        <!--id for restaurant 3-->
+                        <a class="card" href="restaurants/bastille.html">
+                            <div class="image picture-bastille"></div>
+                            <div class="card-details-wrapper">
+                                <div class="card-details">
+                                    <h4>Bastille</h4>
+                                    <span class="city">New York</span>
+                                </div>
+                                <button class="heart_btn">
+                                    <i class="far fa-heart heart_icon"></i>
+                                    <i class="fas fa-heart heart_icon_hover"></i>
+                                </button>
+                            </div>
+                        </a>
+                        <!--id for restaurant 4-->
+                        <a class="card" href="restaurants/le_gourmand.html">
+                            <div class="image picture-gourmand"></div>
+                            <div class="card-details-wrapper">
+                                <div class="card-details">
+                                    <h4>Le Gourmand</h4>
+                                    <span class="city">New York</span>
+                                </div>
+                                <button class="heart_btn">
+                                    <i class="far fa-heart heart_icon"></i>
+                                    <i class="fas fa-heart heart_icon_hover"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
-            </div>
-        </section>
+                </div>
+            </main>
+        
 
-        <main class="restaurants">
-            <div class="container">
-                <h2>Restaurants</h2>
-                <!--Box "different restaurants available"-->
-                <div class="restaurants-cards">
-                    <!--id for restaurant 1-->
-                    <a class="card" href="restaurants/the_full_palette.html">
-                        <div class="image picture-full-palette"></div>
-                        <div class="card-details-wrapper">
-                            <div class="card-details">
-                                <h4>The Full Palette</h4>
-                                <span class="city">New York</span>
-                            </div>
-                            <button class="heart_btn">
-                                <i class="far fa-heart heart_icon"></i>
-                                <i class="fas fa-heart heart_icon_hover"></i>
-                            </button>
-                        </div>
+        <footer>
+            <div class="container">    
+                <!--Box "Informations at bottom of all pages "-->
+                <div class="title_mini">
+                    <h4>ohmyfood</h4>
+                    <!--Title "OHMYFOOD " size mini-->
+                </div>
+                <div class="suggestion">
+                    <a href="#">
+                        <i class=" fas fa-utensils icon"></i> Suggest a restaurant
                     </a>
-                    <!--id for restaurant 2-->
-                    <a class="card" href="restaurants/the_enchanted_plate.html">
-                        <div class="image picture-enchanted-plate"></div>
-                        <div class="card-details-wrapper">
-                            <div class="card-details">
-                                <h4>The Enchanted Plate</h4>
-                                <span class="city">New York</span>
-                            </div>
-                            <button class="heart_btn">
-                                <i class="far fa-heart heart_icon"></i>
-                                <i class="fas fa-heart heart_icon_hover"></i>
-                            </button>
-                        </div>
+                    <!--Link to "Suggest a restaurant "-->
+                </div>
+                <div class="partnership">
+                    <a href="#">
+                        <i class="fas fa-hands-helping icon"></i> Become a partner
                     </a>
-                    <!--id for restaurant 3-->
-                    <a class="card" href="restaurants/bastille.html">
-                        <div class="image picture-bastille"></div>
-                        <div class="card-details-wrapper">
-                            <div class="card-details">
-                                <h4>Bastille</h4>
-                                <span class="city">New York</span>
-                            </div>
-                            <button class="heart_btn">
-                                <i class="far fa-heart heart_icon"></i>
-                                <i class="fas fa-heart heart_icon_hover"></i>
-                            </button>
-                        </div>
-                    </a>
-                    <!--id for restaurant 4-->
-                    <a class="card" href="restaurants/le_gourmand.html">
-                        <div class="image picture-gourmand"></div>
-                        <div class="card-details-wrapper">
-                            <div class="card-details">
-                                <h4>Le Gourmand</h4>
-                                <span class="city">New York</span>
-                            </div>
-                            <button class="heart_btn">
-                                <i class="far fa-heart heart_icon"></i>
-                                <i class="fas fa-heart heart_icon_hover"></i>
-                            </button>
-                        </div>
-                    </a>
+                    <!--Link to "Become a partner "-->
+                </div>
+                <div class="legal">
+                    <a href="#">Legal</a>
+                    <!--Link to " Legal "-->
+                </div>
+                <div class="contact">
+                    <a href="mailto:someone@example.com">Contact</a>
+                    <!--Link to "Contact " for sending an email-->
                 </div>
             </div>
-        </main>
-    
-
-    <footer>
-        <div class="container">    
-            <!--Box "Informations at bottom of all pages "-->
-            <div class="title_mini">
-                <h4>ohmyfood</h4>
-                <!--Title "OHMYFOOD " size mini-->
-            </div>
-            <div class="suggestion">
-                <a href="#">
-                    <i class=" fas fa-utensils icon"></i> Suggest a restaurant
-                </a>
-                <!--Link to "Suggest a restaurant "-->
-            </div>
-            <div class="partnership">
-                <a href="#">
-                    <i class="fas fa-hands-helping icon"></i> Become a partner
-                </a>
-                <!--Link to "Become a partner "-->
-            </div>
-            <div class="legal">
-                <a href="#">Legal</a>
-                <!--Link to " Legal "-->
-            </div>
-            <div class="contact">
-                <a href="mailto:someone@example.com">Contact</a>
-                <!--Link to "Contact " for sending an email-->
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 
 </html>
