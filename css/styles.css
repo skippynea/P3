@@ -48,11 +48,13 @@
     opacity: 0;
     z-index: -1;
     width: 1px;
+    height: 1px;
   }
   100% {
     opacity: 1;
     z-index: 4;
     width: 100%;
+    height: auto;
   }
 }
 @keyframes fade-out {
