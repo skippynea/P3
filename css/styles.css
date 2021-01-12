@@ -43,7 +43,7 @@
     opacity: 1;
   }
 }
-@keyframes fade {
+@keyframes fade-out {
   0% {
     opacity: 1;
     z-index: 4;
@@ -53,6 +53,20 @@
     z-index: 4;
   }
   100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    z-index: 4;
+  }
+  90% {
+    opacity: 1;
+    z-index: 4;
+  }
+  0% {
     opacity: 0;
     z-index: -1;
   }
@@ -86,7 +100,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  animation: fade;
+  animation: fade-out;
   animation-duration: 3s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
@@ -291,6 +305,11 @@ h1 {
 }
 
 .restaurants {
+  animation: fade-out;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
   background-color: #f6f6f6;
   padding: 30px;
 }

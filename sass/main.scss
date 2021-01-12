@@ -151,6 +151,11 @@ h1 {
 }
 
 .restaurants {
+    animation: fade-out;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
     background-color: #f6f6f6;
     padding: 30px;
     h2 {
