@@ -91,7 +91,7 @@
 .loader {
   display: flex;
   background-color: white;
-  width: 98vw;
+  max-width: 98vw;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -140,6 +140,8 @@ button.cta {
 
 button.cta:hover {
   opacity: 0.6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: transparent;
 }
 
 footer {
@@ -229,10 +231,6 @@ h1 {
   color: grey;
   margin: 10px 0px;
   font-size: 18px;
-}
-.hero:hover .cta {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: transparent;
 }
 
 .choices {
