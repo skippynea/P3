@@ -184,8 +184,8 @@ h1 {
         min-width: 250px;
         text-decoration: none;
         color: black;
-        
     }
+    
     .image {
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
@@ -194,21 +194,22 @@ h1 {
         background-size: cover;
         .new-tag {
             position: relative;
-            top:20px;
-            left: 160px;
-            width: 120px;
+            top: 20px;
+            left: 190px;
+            width: 60px;
             height: 30px;
+            padding-top:4px;
+            padding-bottom: 4px;
+            padding-right: 10px;
+            padding-left: 10px;
             text-align: center;
             font-weight: bold;
-            padding-bottom: 4px;
-            padding-top: 4px;
-            padding-left: 20px;
-            padding-right: 20px;
             background-color: $tertiary-color;
             color: darken($tertiary-color,50%);
-                      
         }
     }
+    
+    
     .picture-full-palette {
         background-image: url('../img/restaurants/The_Full_Palette.jpg');
     }
