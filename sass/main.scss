@@ -184,6 +184,7 @@ h1 {
         min-width: 250px;
         text-decoration: none;
         color: black;
+        
     }
     .image {
         border-top-right-radius: 20px;
@@ -191,6 +192,20 @@ h1 {
         height: 200px;
         width: 100%;
         background-size: cover;
+        .new-tag {
+            position: relative;
+            top:20px;
+            left: 180px;
+            width: 120px;
+            height: 30px;
+            text-align: center;
+            font-weight: bold;
+            padding: 8px;
+            background-color: $tertiary-color;
+            color: darken($tertiary-color,50%);
+            
+            
+        }
     }
     .picture-full-palette {
         background-image: url('../img/restaurants/The_Full_Palette.jpg');
@@ -268,18 +283,7 @@ h1 {
         margin-top: -75px;
         background-color: #f6f6f6;
         padding: 40px;
-        .new-tag{
-            position: absolute;
-            text-align: center;
-            font-weight: bold;
-            padding: 4px;
-            background-color: $tertiary-color;
-            color: darken($tertiary-color,50%);
-            width: 90px;
-            height: 30px;
-            top:12px;
-            right: 16px;
-        }
+        
         .card-details-wrapper {
             display: flex;
             justify-content: space-between;
