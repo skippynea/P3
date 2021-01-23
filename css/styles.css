@@ -356,15 +356,14 @@ h1 {
   right: 5%;
   width: 60px;
   height: 30px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-right: 10px;
-  padding-left: 10px;
   text-align: center;
   font-weight: bold;
   background-color: #99E2D0;
   color: #1b6150;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .restaurants .picture-full-palette {
   background-image: url("../img/restaurants/The_Full_Palette.jpg");
