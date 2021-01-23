@@ -187,15 +187,16 @@ h1 {
     }
     
     .image {
+        position: relative;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
         height: 200px;
         width: 100%;
         background-size: cover;
         .new-tag {
-            position: relative;
-            top: 20px;
-            left: 190px;
+            position: absolute;
+            top: 5%;
+            right: 5%;
             width: 60px;
             height: 30px;
             padding-top:4px;
@@ -206,6 +207,7 @@ h1 {
             font-weight: bold;
             background-color: $tertiary-color;
             color: darken($tertiary-color,50%);
+            border-radius: 5px;
         }
     }
     

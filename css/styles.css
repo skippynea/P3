@@ -343,6 +343,7 @@ h1 {
   color: black;
 }
 .restaurants .image {
+  position: relative;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   height: 200px;
@@ -350,9 +351,9 @@ h1 {
   background-size: cover;
 }
 .restaurants .image .new-tag {
-  position: relative;
-  top: 20px;
-  left: 190px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
   width: 60px;
   height: 30px;
   padding-top: 4px;
@@ -363,6 +364,7 @@ h1 {
   font-weight: bold;
   background-color: #99E2D0;
   color: #1b6150;
+  border-radius: 5px;
 }
 .restaurants .picture-full-palette {
   background-image: url("../img/restaurants/The_Full_Palette.jpg");
